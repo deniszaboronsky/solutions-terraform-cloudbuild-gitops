@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "kaluza-orion-hubble-tfstate"
     prefix = "env/dev"
   }
 }
